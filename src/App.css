@@ -35,12 +35,11 @@
     z-index: 1;
     min-height: 100vh;
     width: 100%;
-    padding: 64px 24px; /* ✅ makes space instead of margin hacks */
+    padding: 64px 18px; /* ✅ makes space instead of margin hacks */
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 40px;
-  
+    align-items: center;
+    justify-content: flex-start;
+
     backdrop-filter: blur(4px);
     background-color: rgba(0, 0, 0, 0.5);
   }
@@ -69,7 +68,7 @@
   }
   
   .content p {
-    font-size: clamp(16px, 2.2vw, 25px);
+    font-size: clamp(10px, 2vw, 20px);
   }
   
   /* Divider */

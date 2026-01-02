@@ -1,27 +1,31 @@
 .about-us-container {
-    width: 80%;
+    width: clamp(300px, 80vw, 800px);
     /* margin: 0 auto; */
-    /* padding: 20px; */
+     padding: 30px;
     /* background-color: red; */
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
   }
   
   .about-us-heading {
-    font-size: 28px;
+    font-size: 16px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
   
   .about-us-description {
-    font-size: 10px;
+    font: italic 0.5rem "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #666;
     margin-bottom: 30px;
     text-align: center;
   }
   
   .about-us-content {
-    font-size: 18px;
+    font: 0.1rem "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-bottom: 20px;
   }
   .plant_logo_right{
